@@ -300,6 +300,30 @@ section {
 .about-stats {
   padding-bottom: 4rem;
 }
+.about-stats .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.about-stats .grid-item img {
+  height: 50px;
+  width: 50px;
+}
+.about-stats .grid-item i {
+  font-size: 3rem;
+}
+.about-stats .grid-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
 .about-stats .progress-bars {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
